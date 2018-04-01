@@ -63,20 +63,24 @@
         margin-right: auto;
     }
     
+    header {
+        padding: 3vmin 1vmin 3vmin 1vmin;
+    }
+    
     .header-title {
-        font-size: 5vw;
+        font-size: 3.8em;
     }
 
     .header-sub-title {
-        font-size: 2vw;
+        font-size: 2em;
     }
 
     .featured-title {
         margin-left: 0.5vw;
-        font-size: 3.2vw;
+        font-size: 2.5em;
     }
 
     .featured-examples {
-        font-size: 2.2vw;
+        font-size: 1.8em;
     }
 }
