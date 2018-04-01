@@ -1,86 +1,82 @@
-@media screen and(max - width: 599 px) {
-    .featured - examples {
-        display: -webkit - flex;
+@media screen and (max-width: 599px) {
+    .featured-examples {
+        display: -webkit-flex;
         display: flex;
-        flex - wrap: wrap;
-        - webkit - align - items: center;
-        align - items: center;
-        - webkit - justify - content: center;
-        justify - content: center;
-        font - size: 4.8 vw;
+        flex-wrap: wrap;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        font-size: 4.8vw;
     }
 
-    .featured - pics {
-        width: 70 %;
+    .featured-pics {
+        width: 70%;
     }
 
-    .featured - title {
-        text - align: center;
+    .featured-title {
+        text-align: center;
     }
 }
 
-@media screen and(min - width: 600 px) {
+@media screen and (min-width: 600px) {
     header {
-        padding: 3.5 vmin 1.5 vmin 3.5 vmin 1.5 vmin;
+        padding: 3.5vmin 1.5vmin 3.5vmin 1.5vmin;
     }
 
-    .featured - examples {
-        width: 100 %;
+    .featured-examples {
+        width: 100%;
         padding: 0;
         margin: 0;
         border: 0;
         display: flex;
-        flex - wrap: wrap;
-        font - size: 4.2 vw;
-        margin - top: 0;
+        flex-wrap: wrap;
+        font-size: 4.2vw;
+        margin-top: 0;
     }
 
-    .featured - work - item - 1,
-    .featured - work - item - 2,
-    .featured - work - item - 3 {
-        width: calc((100 % -20 px) / 3);
-        margin - right: 10 px;
-        min - height: 100 %;
+    .featured-work-item-1, .featured-work-item-2, .featured-work-item-3 {
+        width: calc((100% - 20px) / 3);
+        margin-right: 10px;
+        min-height: 100%;
     }
 
-    .featured - work - item - 3 {
-        margin - right: 0;
+    .featured-work-item-3 {
+        margin-right: 0;
     }
 
-    .featured - title {
-        margin - left: 1.5 vw;
-        font - size: 5 vw;
-        margin - bottom: 0.25e m;
+    .featured-title {
+        margin-left: 1.5vw;
+        font-size: 5vw;
+        margin-bottom: 0.25em;
     }
 
     p {
-        margin - top: 0;
+        margin-top: 0;
     }
 }
 
-@media screen and(min - width: 800 px) {
-    body,
-    header,
-    main,
-    footer {
-        width: 800 px;
-        margin - left: auto;
-        margin - right: auto;
+@media screen and (min - width: 800px) {
+    body, header, main {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .header - title {
-        font - size: 5 vw;
+    
+    .header-title {
+        font-size: 5vw;
     }
 
-    .header - sub - title {
-        font - size: 2 vw;
+    .header-sub-title {
+        font-size: 2vw;
     }
 
-    .featured - title {
-        margin - left: 0.5 vw;
-        font - size: 3.2 vw;
+    .featured-title {
+        margin-left: 0.5vw;
+        font-size: 3.2vw;
     }
 
-    .featured - examples {
-        font - size: 2.2 vw;
+    .featured-examples {
+        font-size: 2.2vw;
     }
 }
