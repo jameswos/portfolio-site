@@ -29,7 +29,7 @@ header {
 .header-logo {
     width: 15%;
     height: auto;
-    background-image: url("images/udacity.svg");
+    background-image: url("../images/udacity.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -39,7 +39,7 @@ header {
     text-align: right;
     text-transform: uppercase;
     margin: 0;
-    color: # 2d3c49;
+    color: #2d3c49;
 }
 
 .header-title {
