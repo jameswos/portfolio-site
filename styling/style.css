@@ -1,35 +1,29 @@
-body,
-html {
+body, html {
     margin: 0;
     padding: 0;
-    width: 100 %;
-    height: 100 %;
+    width: 100%;
+    height: 100%;
 }
 
-header,
-body,
-nav,
-footer,
-section {
-    box - sizing: border - box;
-    font - family: 'Questrial', sans - serif;
+header, body, section {
+    box-sizing: border-box;
+    font-family: "Questrial", sans-serif;
 }
 
 img {
-    max - width: 100 %;
+    max-width: 100%;
 }
 
 header {
     display: flex;
-    width: 100 %;
-    border - bottom: 5 px solid #7d97ad;
+    width: 100%;
+    border-bottom: 5px solid #7d97ad;
     margin-bottom: 10px;
     padding: 5vmin 2vmin 5vmin 2vmin;
 }
 
 .title {
     width: 85%;
-    ;
 }
 
 .header-logo {
@@ -41,23 +35,22 @@ header {
     background-position: center;
 }
 
-.header-title,
-.header-sub-title {
+.header-title, .header-sub-title {
     text-align: right;
     text-transform: uppercase;
     margin: 0;
-    color: # 2 d3c49;
+    color: # 2d3c49;
 }
 
-.header - title {
-    font - size: 7.4 vw;
+.header-title {
+    font-size: 7.4vw;
 }
 
-.header - sub - title {
-    font - size: 4 vw;
+.header-sub-title {
+    font-size: 4vw;
 }
 
-.featured - title {
+.featured-title {
     color: #7d97ad;
 }
 
